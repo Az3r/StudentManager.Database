@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [Score] (
-    [MMH] int IDENTITY(1,1) NOT NULL ,
+    [MMH] int NOT NULL ,
     [MSSV] char(7)  NOT NULL ,
     [HocKi] int  NOT NULL ,
     [NienKhoa] int  NOT NULL ,
