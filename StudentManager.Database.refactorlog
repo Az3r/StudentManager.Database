@@ -98,4 +98,18 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="[MaSoSinhVien]" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="32b8afb5-b3db-4737-a1a9-904d23f6c00d" ChangeDateTime="06/04/2020 14:35:50">
+    <Property Name="ElementName" Value="[dbo].[Role]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[SchoolRole]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9d4bdc11-6cf1-42d0-bde9-ad20d4edefc7" ChangeDateTime="06/04/2020 14:41:24">
+    <Property Name="ElementName" Value="[dbo].[FK_Account_MGV]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Account]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Account_MaGiaoVien]" />
+  </Operation>
 </Operations>
