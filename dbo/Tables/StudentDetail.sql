@@ -8,5 +8,5 @@
     [GioiTinh] bit  NOT NULL ,
     [NgaySinh] datetime  NOT NULL ,
     [Email] varchar(100)  NOT NULL ,
-    CONSTRAINT [FK_StudentDetail_Student] FOREIGN KEY ([MaSoSinhVien]) REFERENCES [Student]([MaSoSinhVien]) ON DELETE CASCADE ON UPDATE CASCADE
+    CONSTRAINT [FK_StudentDetail_Student] FOREIGN KEY ([MaSoSinhVien]) REFERENCES [Student]([MaHocSinh]) ON DELETE CASCADE ON UPDATE CASCADE
 )

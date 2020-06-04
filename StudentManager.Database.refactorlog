@@ -112,4 +112,46 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="[FK_Account_MaGiaoVien]" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="f4211f9d-a059-457c-9afb-585f48d80ed6" ChangeDateTime="06/04/2020 14:50:14">
+    <Property Name="ElementName" Value="[dbo].[Student].[MaSoSinhVien]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Student]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[MaHocSinh]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="039d9f98-25a3-41f5-bd2f-e996c4e2d170" ChangeDateTime="06/04/2020 14:50:30">
+    <Property Name="ElementName" Value="[dbo].[Address].[MaSoSinhVien]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Address]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[MaHocSinh]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="88319113-a4b9-4db5-a308-e4a6af281e0e" ChangeDateTime="06/04/2020 14:50:52">
+    <Property Name="ElementName" Value="[dbo].[FK_Address_MSSV]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Address]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Address_Student]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fd46f475-0749-4fa8-82d8-c6ce2c00d240" ChangeDateTime="06/04/2020 14:51:10">
+    <Property Name="ElementName" Value="[dbo].[HomeRoom].[MGV]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[HomeRoom]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[MaGiaoVien]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b83f7645-dbbf-40b5-a531-c96c03843b7c" ChangeDateTime="06/04/2020 14:51:56">
+    <Property Name="ElementName" Value="[dbo].[FK_HomeRoom_MGV]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[HomeRoom]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_HomeRoom_Teacher]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0a848423-8461-429e-b747-2934316d3c97" ChangeDateTime="06/04/2020 14:52:04">
+    <Property Name="ElementName" Value="[dbo].[FK_HomeRoom_MaLop]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[HomeRoom]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_HomeRoom_Class]" />
+  </Operation>
 </Operations>
