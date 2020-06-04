@@ -1,24 +1,24 @@
 ﻿CREATE TABLE [Score] (
-    [MMH] int NOT NULL ,
-    [MSSV] char(7)  NOT NULL ,
+    [MaMonHoc] int NOT NULL ,
+    [MaSoSinhVien] char(7)  NOT NULL ,
     [HocKi] int  NOT NULL ,
     [NienKhoa] int  NOT NULL ,
     [Diem15] float  NOT NULL DEFAULT 0 ,
     [Diem45] float  NOT NULL DEFAULT 0 ,
     [DiemHocKi] float  NOT NULL DEFAULT 0 ,
     CONSTRAINT [PK_Score] PRIMARY KEY CLUSTERED (
-        [MMH] ASC,[MSSV] ASC,[HocKi] ASC,[NienKhoa] ASC
+        [MaMonHoc] ASC,[MaSoSinhVien] ASC,[HocKi] ASC,[NienKhoa] ASC
     )
 )
 GO
-ALTER TABLE [Score] ADD CONSTRAINT [FK_Score_MMH] FOREIGN KEY([MMH]) 
-REFERENCES [Subject] ([MMH]) ON DELETE CASCADE
+ALTER TABLE [Score] ADD CONSTRAINT [FK_Score_MMH] FOREIGN KEY([MaMonHoc]) 
+REFERENCES [Subject] ([MaMonHoc]) ON DELETE CASCADE
 GO
 
 ALTER TABLE [Score] CHECK CONSTRAINT [FK_Score_MMH]
 GO
-ALTER TABLE [Score] ADD CONSTRAINT [FK_Score_MSSV] FOREIGN KEY([MSSV])
-REFERENCES [Student] ([MSSV]) ON DELETE CASCADE
+ALTER TABLE [Score] ADD CONSTRAINT [FK_Score_MSSV] FOREIGN KEY([MaSoSinhVien])
+REFERENCES [Student] ([MaSoSinhVien]) ON DELETE CASCADE
 GO
 
 ALTER TABLE [Score] CHECK CONSTRAINT [FK_Score_MSSV]

@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [Teacher] (
-    [MGV] char(9)  NOT NULL ,
+    [MaGiaoVien] char(9)  NOT NULL ,
     [ChuyenMon] INT NULL,
     [Ho] nvarchar(10)  NULL ,
     [Ten] nvarchar(10)  NULL ,
@@ -9,7 +9,7 @@
     [ChucVu] nvarchar(50)  NULL ,
     [Email] varchar(100)  NULL ,
     CONSTRAINT [PK_Teacher] PRIMARY KEY CLUSTERED (
-        [MGV] ASC
+        [MaGiaoVien] ASC
     ),
-    CONSTRAINT [FK_Teacher_Subject] FOREIGN KEY ([ChuyenMon]) REFERENCES [Subject]([MMH]) ON DELETE SET NULL ON UPDATE CASCADE
+    CONSTRAINT [FK_Teacher_Subject] FOREIGN KEY ([ChuyenMon]) REFERENCES [Subject]([MaMonHoc]) ON DELETE SET NULL ON UPDATE CASCADE
 )

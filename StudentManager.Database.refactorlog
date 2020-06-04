@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="d63ab17f-65c6-46bc-9b53-b8df48fc6982" ChangeDateTime="06/04/2020 14:05:37">
+    <Property Name="ElementName" Value="[dbo].[SubjectSchedule].[MTH]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SubjectSchedule]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[MaTietHoc]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ce44843a-7b16-4b13-9a1c-bc03290dd385" ChangeDateTime="06/04/2020 14:05:58">
+    <Property Name="ElementName" Value="[dbo].[Session].[MTH]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Session]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[MaTietHoc]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="44f8d7e4-f491-4d5e-a03a-f765f4ba777f" ChangeDateTime="06/04/2020 14:06:08">
+    <Property Name="ElementName" Value="[dbo].[Subject].[MMH]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Subject]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[MaMonHoc]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bb3b5df7-a0fd-4a9f-a62c-8aae3a0d5c51" ChangeDateTime="06/04/2020 14:06:14">
+    <Property Name="ElementName" Value="[dbo].[SubjectSchedule].[MMH]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SubjectSchedule]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[MaMonHoc]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a30148d3-d1ee-439f-a3b3-1ac22c7ca722" ChangeDateTime="06/04/2020 14:06:33">
+    <Property Name="ElementName" Value="[dbo].[Address].[MDC]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Address]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[MaDiaChi]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6bf6d7d8-b836-46de-993c-117a5e9b17b6" ChangeDateTime="06/04/2020 14:06:44">
+    <Property Name="ElementName" Value="[dbo].[Address].[MSSV]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Address]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[MaSoSinhVien]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1de344fc-0990-4804-a666-37b3ec40d9d6" ChangeDateTime="06/04/2020 14:06:54">
+    <Property Name="ElementName" Value="[dbo].[Student].[MSSV]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Student]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[MaSoSinhVien]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b045fec8-c5c2-48eb-8e4c-4b702a9b4789" ChangeDateTime="06/04/2020 14:08:12">
+    <Property Name="ElementName" Value="[dbo].[Account].[MGV]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Account]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[MaGiaoVien]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c82e869a-c013-41c4-b8d2-d4809330ae6c" ChangeDateTime="06/04/2020 14:08:20">
+    <Property Name="ElementName" Value="[dbo].[Teacher].[MGV]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Teacher]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[MaGiaoVien]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="67653a34-c386-4cfa-8a44-8c984e324efe" ChangeDateTime="06/04/2020 14:08:55">
+    <Property Name="ElementName" Value="[dbo].[ClassNotification].[MTB]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ClassNotification]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[MaThongBao]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="57abde1c-9d55-4a93-a118-cc18b5b67330" ChangeDateTime="06/04/2020 14:09:29">
+    <Property Name="ElementName" Value="[dbo].[EnrolledClass].[MSSV]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[EnrolledClass]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MaSoSinhVien" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="dce1d913-1cb2-4da6-b070-27e0b57c33ea" ChangeDateTime="06/04/2020 14:09:46">
+    <Property Name="ElementName" Value="[dbo].[Room].[MPH]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Room]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[MaPhongHoc]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9bb66f2c-3cbb-4e48-886b-13029f73951b" ChangeDateTime="06/04/2020 14:09:55">
+    <Property Name="ElementName" Value="[dbo].[Score].[MMH]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Score]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[MaMonHoc]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="16c17fd5-8ecd-4ba6-9512-fcb0d2ddffcd" ChangeDateTime="06/04/2020 14:10:02">
+    <Property Name="ElementName" Value="[dbo].[Score].[MSSV]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Score]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[MaSoSinhVien]" />
+  </Operation>
+</Operations>

@@ -5,7 +5,7 @@
 )
 GO
 ALTER TABLE [HomeRoom] ADD CONSTRAINT [FK_HomeRoom_MGV] FOREIGN KEY([MGV])
-REFERENCES [Teacher] ([MGV])
+REFERENCES [Teacher] ([MaGiaoVien])
 GO
 
 ALTER TABLE [HomeRoom] CHECK CONSTRAINT [FK_HomeRoom_MGV]
