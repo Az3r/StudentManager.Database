@@ -1,5 +1,6 @@
 ﻿CREATE TABLE [Account] (
     [MGV] char(9)  NOT NULL ,
+    [Permission] INT NOT NULL DEFAULT 0,
     [Salt] binary(128)  NOT NULL ,
     [Password] binary(128)  NOT NULL ,
     CONSTRAINT [PK_Account] PRIMARY KEY CLUSTERED (

@@ -74,5 +74,8 @@
     <Build Include="dbo\Tables\Teacher.sql" />
     <Build Include="dbo\Tables\HomeRoom.sql" />
     <Build Include="dbo\Tables\Account.sql" />
+    <Build Include="dbo\Tables\SubjectSchedule.sql" />
+    <Build Include="dbo\Tables\Session.sql" />
+    <Build Include="dbo\Tables\ClassNotification.sql" />
   </ItemGroup>
 </Project>

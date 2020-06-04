@@ -8,6 +8,7 @@
     [NgaySinh] datetime  NULL ,
     [Phone] char(10)  NULL ,
     [Email] varchar(100)  NULL ,
+    [DaRaTruong] BIT DEFAULT 0,
     CONSTRAINT [PK_Student] PRIMARY KEY CLUSTERED (
         [MSSV] ASC
     )
