@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[TeacherDetail]
 (
     [MaGiaoVien] CHAR(9) NOT NULL PRIMARY KEY,
-    [Ho] nvarchar(10)  NOT NULL ,
+    [Ho] nvarchar(10)  NOT NULL,
     [Ten] nvarchar(10)  NOT NULL ,
     [TenDem] nvarchar(10)  NOT NULL ,
     [GioiTinh] binary  NOT NULL ,

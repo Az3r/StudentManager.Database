@@ -3,5 +3,5 @@
     [DaRaTruong] BIT DEFAULT 0 NOT NULL,
     CONSTRAINT [PK_Student] PRIMARY KEY CLUSTERED (
         [MaHocSinh] ASC
-    )
+    ), 
 )
