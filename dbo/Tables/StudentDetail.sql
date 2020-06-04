@@ -6,7 +6,9 @@
     [TenDem] nvarchar(10)  NOT NULL ,
     [Tuoi] int  NOT NULL ,
     [GioiTinh] bit  NOT NULL ,
-    [NgaySinh] datetime  NOT NULL ,
+    [NgaySinh] date  NOT NULL ,
     [Email] varchar(100)  NOT NULL ,
-    CONSTRAINT [FK_StudentDetail_Student] FOREIGN KEY ([MaSoSinhVien]) REFERENCES [Student]([MaHocSinh]) ON DELETE CASCADE ON UPDATE CASCADE
+    CONSTRAINT [FK_StudentDetail_Student] FOREIGN KEY ([MaSoSinhVien]) REFERENCES [Student]([MaHocSinh]) ON DELETE CASCADE ON UPDATE CASCADE, 
+    CONSTRAINT [CK_StudentDetail_Email] CHECK (CHARINDEX('@gmail.com', Email) > 0)
+
 )
