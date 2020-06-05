@@ -8,7 +8,7 @@
     [HocKi] INT NOT NULL,
     [NienKhoa] INT NOT NULL,
     [NgayTrongTuan] INT NOT NULL,
-    CONSTRAINT [FK_SubjectSchedule_Session] FOREIGN KEY ([MaTietHoc]) REFERENCES [Session]([MaTietHoc]) ON DELETE SET NULL ON UPDATE CASCADE,
+    CONSTRAINT [FK_SubjectSchedule_Session] FOREIGN KEY ([MaTietHoc]) REFERENCES [Session]([MaTietHoc]) ON DELETE CASCADE ON UPDATE CASCADE,
     CONSTRAINT [FK_SubjectSchedule_Subject] FOREIGN KEY ([MaMonHoc]) REFERENCES [Subject]([MaMonHoc]) ON DELETE CASCADE ON UPDATE CASCADE,
     CONSTRAINT [FK_SubjectSchedule_Class] FOREIGN KEY ([MaLop]) REFERENCES [Class]([MaLop]) ON DELETE CASCADE ON UPDATE CASCADE,
     CONSTRAINT [FK_SubjectSchedule_Room] FOREIGN KEY ([MaPhongHoc]) REFERENCES [Room]([MaPhongHoc]) ON DELETE CASCADE ON UPDATE CASCADE
