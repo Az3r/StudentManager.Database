@@ -6,7 +6,7 @@
     [LoaiDiem] int NOT NULL,
     [Diem] float NOT NULL DEFAULT 0,
     CONSTRAINT [PK_Score] PRIMARY KEY CLUSTERED (
-        [MaMonHoc] ASC,[MaSoSinhVien] ASC,[HocKi] ASC,[NienKhoa] ASC
+        [MaMonHoc] ASC,[MaSoSinhVien] ASC,[HocKi] ASC,[NienKhoa] ASC, [LoaiDiem] ASC
     ),
 
     CONSTRAINT [FK_Score_MMH] FOREIGN KEY([MaMonHoc]) REFERENCES [Subject] ([MaMonHoc]) ON DELETE CASCADE ON UPDATE CASCADE,
