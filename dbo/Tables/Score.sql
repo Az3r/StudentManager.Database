@@ -1,4 +1,5 @@
 ﻿CREATE TABLE [Score] (
+    [MaDiem] char(11),
     [MaMonHoc] int NOT NULL ,
     [MaSoSinhVien] char(7)  NOT NULL ,
     [HocKi] int  NOT NULL ,
@@ -6,7 +7,7 @@
     [LoaiDiem] int NOT NULL,
     [Diem] float NOT NULL DEFAULT 0,
     CONSTRAINT [PK_Score] PRIMARY KEY CLUSTERED (
-        [MaMonHoc] ASC,[MaSoSinhVien] ASC,[HocKi] ASC,[NienKhoa] ASC, [LoaiDiem] ASC
+        [MaDiem],[MaMonHoc],[MaSoSinhVien],[HocKi],[NienKhoa], [LoaiDiem]
     ),
 
     CONSTRAINT [FK_Score_MMH] FOREIGN KEY([MaMonHoc]) REFERENCES [Subject] ([MaMonHoc]) ON DELETE CASCADE ON UPDATE CASCADE,
