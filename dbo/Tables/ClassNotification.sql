@@ -2,9 +2,9 @@
 (
     [MaThongBao] INT NOT NULL PRIMARY KEY,
     [CreatedOn] DATE NOT NULL,
-    [MaLop] CHAR(4) NULL,
-    [Title] NVARCHAR(100) NULL,
-    [Content] NVARCHAR(500) NULL,
+    [MaLop] CHAR(4) NOT NULL ,
+    [Title] NVARCHAR(100) NOT NULL DEFAULT '',
+    [Content] NVARCHAR(500) NOT NULL DEFAULT '',
 
     CONSTRAINT [FK_ClassNotification_Class] FOREIGN KEY ([MaLop]) REFERENCES [Class]([MaLop]) ON DELETE CASCADE ON UPDATE CASCADE
 )
