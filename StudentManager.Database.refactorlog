@@ -154,4 +154,32 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="[FK_HomeRoom_Class]" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="d7b36ed9-a338-4909-b711-7e5b5985e306" ChangeDateTime="06/06/2020 03:33:48">
+    <Property Name="ElementName" Value="[dbo].[Score].[MaSoSinhVien]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Score]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[MaHocSinh]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="95b0edec-9fff-4bb7-af51-303835d0b1bc" ChangeDateTime="06/06/2020 03:34:16">
+    <Property Name="ElementName" Value="[dbo].[FK_Score_MSSV]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Score]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Score_Student]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2bee5191-fcb2-42c0-a557-3fc4a97bae6d" ChangeDateTime="06/06/2020 03:34:26">
+    <Property Name="ElementName" Value="[dbo].[FK_Score_MMH]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Score]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Score_Subject]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3751e651-335b-475b-9d22-d403791759c3" ChangeDateTime="06/06/2020 03:34:48">
+    <Property Name="ElementName" Value="[dbo].[StudentDetail].[MaSoSinhVien]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[StudentDetail]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[MaHocSinh]" />
+  </Operation>
 </Operations>

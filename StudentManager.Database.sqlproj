@@ -83,6 +83,7 @@
     <Build Include="dbo\Tables\TeacherDetail.sql" />
     <Build Include="dbo\Tables\SchoolRole.sql" />
     <Build Include="dbo\Views\StudentInfo.sql" />
+    <Build Include="dbo\Tables\EnrolledClass.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="StudentManager.Database.refactorlog" />

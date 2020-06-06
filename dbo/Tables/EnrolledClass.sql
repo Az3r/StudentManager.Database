@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[EnrolledClass]
+(
+    [MaHocSinh] CHAR(7) NOT NULL PRIMARY KEY,
+    [MaLop] CHAR(4) NOT NULL PRIMARY KEY,
+
+    CONSTRAINT [FK_EnrolledClass_Class] FOREIGN KEY (MaLop) REFERENCES [Class]([MaLop]) ON DELETE CASCADE ON UPDATE CASCADE,
+    CONSTRAINT [FK_EnrolledClass_Student] FOREIGN KEY ([MaHocSinh]) REFERENCES [Student]([MaHocSinh]) ON DELETE CASCADE ON UPDATE CASCADE,
+)
