@@ -4,4 +4,5 @@
     CONSTRAINT [PK_Student] PRIMARY KEY CLUSTERED (
         [MaHocSinh] ASC
     ), 
+    CONSTRAINT [CK_Student_MaHocSinh] CHECK (ISNUMERIC(MaHocSinh) = 1), 
 )

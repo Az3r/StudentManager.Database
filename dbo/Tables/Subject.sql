@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [Subject] (
     [MaMonHoc] int IDENTITY(1,1) NOT NULL ,
-    [Ten] nvarchar(50)  NULL ,
+    [Ten] nvarchar(50)  NOT NULL ,
     CONSTRAINT [PK_Subject] PRIMARY KEY CLUSTERED (
         [MaMonHoc] ASC
     ),

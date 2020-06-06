@@ -13,5 +13,6 @@
     CONSTRAINT [FK_Score_Subject] FOREIGN KEY([MaMonHoc]) REFERENCES [Subject] ([MaMonHoc]) ON DELETE CASCADE ON UPDATE CASCADE,
     CONSTRAINT [FK_Score_Student] FOREIGN KEY([MaHocSinh]) REFERENCES [Student] ([MaHocSinh]) ON DELETE CASCADE ON UPDATE CASCADE, 
     CONSTRAINT [CK_Score_HocKi] CHECK (HocKi >= 1 AND HocKi <= 2),
-    CONSTRAINT [CK_Score_Diem] CHECK (Diem >= 0 AND Diem <= 10)
+    CONSTRAINT [CK_Score_Diem] CHECK (Diem >= 0 AND Diem <= 10), 
+    CONSTRAINT [CK_Score_MaDiem] CHECK (ISNUMERIC(MaDiem) = 1)
 )
