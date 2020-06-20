@@ -5,7 +5,7 @@
     [HocKi] int  NOT NULL ,
     [NienKhoa] int  NOT NULL ,
     [LoaiDiem] int NOT NULL,
-    [Diem] float NOT NULL DEFAULT 0,
+    [Diem] float NOT NULL DEFAULT -1,
     CONSTRAINT [PK_Score] PRIMARY KEY CLUSTERED (
         [MaDiem],[MaMonHoc],[MaHocSinh],[HocKi],[NienKhoa], [LoaiDiem]
     ),
