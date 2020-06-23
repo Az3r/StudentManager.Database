@@ -266,4 +266,25 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="[ClassId]" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="1abb38c2-c114-488d-9e3d-6ce5a7787487" ChangeDateTime="06/23/2020 09:39:56">
+    <Property Name="ElementName" Value="[dbo].[HomeRoom].[MaLop]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[HomeRoom]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[ClassId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c79bad52-7870-41aa-a933-df3f0367c80d" ChangeDateTime="06/23/2020 09:40:03">
+    <Property Name="ElementName" Value="[dbo].[HomeRoom].[MaGiaoVien]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[HomeRoom]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[TeacherId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a7224f67-fc8d-439a-a233-c88e20341efd" ChangeDateTime="06/23/2020 09:40:44">
+    <Property Name="ElementName" Value="[dbo].[HomeRoom].[NienKhoa]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[HomeRoom]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[AcademicYear]" />
+  </Operation>
 </Operations>
