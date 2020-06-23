@@ -483,4 +483,11 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="[PhoneNumber]" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="3dd902cf-8fd4-47c7-9dc8-6d0aa017c098" ChangeDateTime="06/23/2020 09:52:44">
+    <Property Name="ElementName" Value="[dbo].[Subject].[Ten]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Subject]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[SubjectName]" />
+  </Operation>
 </Operations>
