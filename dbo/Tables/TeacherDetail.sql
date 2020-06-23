@@ -8,7 +8,7 @@
     [NgaySinh] date  NOT NULL ,
     [Email] varchar(100)  NOT NULL, 
     [SoDienThoai] CHAR(10) NOT NULL, 
-    CONSTRAINT [FK_TeacherDetail_Teacher] FOREIGN KEY ([MaGiaoVien]) REFERENCES [Teacher]([MaGiaoVien]) ON DELETE CASCADE ON UPDATE CASCADE, 
+    CONSTRAINT [FK_TeacherDetail_Teacher] FOREIGN KEY ([MaGiaoVien]) REFERENCES [Teacher]([TeacherId]) ON DELETE CASCADE ON UPDATE CASCADE, 
     CONSTRAINT [CK_TeacherDetail_SoDienThoai] CHECK (ISNUMERIC(SoDienThoai) = 1), 
     CONSTRAINT [CK_TeacherDetail_Email] CHECK (CHARINDEX('@gmail.com', Email) > 0)
 )
