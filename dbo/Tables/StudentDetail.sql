@@ -1,15 +1,13 @@
 ﻿CREATE TABLE [dbo].[StudentDetail]
 (
-    [MaHocSinh] CHAR(7) NOT NULL PRIMARY KEY,
-    [Ho] nvarchar(10)  NOT NULL ,
-    [Ten] nvarchar(10)  NOT NULL ,
-    [TenDem] nvarchar(10)  NOT NULL ,
-    [GioiTinh] bit  NOT NULL ,
-    [NgaySinh] date  NOT NULL ,
+    [StudentId] CHAR(7) NOT NULL PRIMARY KEY,
+    [LastName] nvarchar(10)  NOT NULL ,
+    [FirstName] nvarchar(10)  NOT NULL ,
+    [MiddleName] nvarchar(10)  NOT NULL ,
+    [IsMale] bit  NOT NULL ,
+    [Birthday] date  NOT NULL ,
     [Email] varchar(100)  NOT NULL ,
-    [SoDienThoai] CHAR(10) NOT NULL, 
-    CONSTRAINT [FK_StudentDetail_Student] FOREIGN KEY ([MaHocSinh]) REFERENCES [Student]([StudentId]) ON DELETE CASCADE ON UPDATE CASCADE, 
+    [PhoneNumber] CHAR(10) NOT NULL, 
+    CONSTRAINT [FK_StudentDetail_Student] FOREIGN KEY ([StudentId]) REFERENCES [Student]([StudentId]) ON DELETE CASCADE ON UPDATE CASCADE, 
     CONSTRAINT [CK_StudentDetail_Email] CHECK (CHARINDEX('@gmail.com', Email) > 0),
-    CONSTRAINT [CK_StudentDetail_Tuoi] CHECK (Tuoi > 0)
-
 )

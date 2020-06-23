@@ -420,4 +420,67 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="[IsGraduated]" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="9ebbe647-9f4a-4681-a170-34be060e78d3" ChangeDateTime="06/23/2020 09:51:03">
+    <Property Name="ElementName" Value="[dbo].[StudentDetail].[MaHocSinh]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[StudentDetail]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[StudentId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="efa9487b-fdc8-4fc5-820d-270031198d8b" ChangeDateTime="06/23/2020 09:51:12">
+    <Property Name="ElementName" Value="[dbo].[StudentDetail].[Ho]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[StudentDetail]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[LastName]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e39acc4e-f84b-4c93-be2f-90dce41530dc" ChangeDateTime="06/23/2020 09:51:17">
+    <Property Name="ElementName" Value="[dbo].[StudentDetail].[Ten]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[StudentDetail]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FirstName]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="05dede9c-b805-475e-8d43-cb586151ca5c" ChangeDateTime="06/23/2020 09:51:21">
+    <Property Name="ElementName" Value="[dbo].[StudentDetail].[TenDem]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[StudentDetail]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[MiddleName]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f62299bd-646f-4013-90f8-8f361c705119" ChangeDateTime="06/23/2020 09:51:26">
+    <Property Name="ElementName" Value="[dbo].[StudentDetail].[GioiTinh]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[StudentDetail]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[Gender]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9a92bc1c-bf93-4cf3-8523-13ad34a3bd26" ChangeDateTime="06/23/2020 09:51:34">
+    <Property Name="ElementName" Value="[dbo].[StudentDetail].[Gender]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[StudentDetail]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[IsMale]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e7ef020d-95e2-4edc-8e38-6d2f32a4451c" ChangeDateTime="06/23/2020 09:51:53">
+    <Property Name="ElementName" Value="[dbo].[StudentDetail].[NgaySinh]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[StudentDetail]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Birthday" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a8cd45a2-caf8-44dc-8859-c5985d61e133" ChangeDateTime="06/23/2020 09:52:07">
+    <Property Name="ElementName" Value="[dbo].[StudentDetail].[Birthday]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[StudentDetail]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[Birthday]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="37e22d4d-47ad-4b20-baee-f161d882aa9f" ChangeDateTime="06/23/2020 09:52:13">
+    <Property Name="ElementName" Value="[dbo].[StudentDetail].[SoDienThoai]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[StudentDetail]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[PhoneNumber]" />
+  </Operation>
 </Operations>

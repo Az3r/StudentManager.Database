@@ -1,3 +1,3 @@
 ﻿CREATE VIEW [dbo].[StudentInfo]
-    AS SELECT Student.[StudentId], [IsGraduated], Ho, Ten, TenDem 
-    FROM [Student] join [StudentDetail] on Student.[StudentId] = StudentDetail.[MaHocSinh]
+    AS SELECT Student.[StudentId], [IsGraduated], [LastName], [FirstName], [MiddleName] 
+    FROM [Student] join [StudentDetail] on Student.[StudentId] = StudentDetail.[StudentId]
