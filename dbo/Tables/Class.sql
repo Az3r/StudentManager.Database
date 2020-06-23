@@ -1,4 +1,4 @@
 ﻿CREATE TABLE [Class] (
-    [MaLop] char(4)  NOT NULL PRIMARY KEY,
-    [TenLop] char(4)  NOT NULL 
+    [ClassId] char(4)  NOT NULL PRIMARY KEY,
+    [ClassName] char(4)  NOT NULL 
 )
