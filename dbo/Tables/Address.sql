@@ -1,11 +1,11 @@
 ﻿CREATE TABLE [Address] (
-    [MaDiaChi] int IDENTITY(1,1) NOT NULL ,
-    [MaHocSinh] char(7)  NOT NULL ,
+    [AddressId] int IDENTITY(1,1) NOT NULL ,
+    [StudentId] char(7)  UNIQUE NOT NULL ,
     [Street] nvarchar(50)  NOT NULL ,
     [District] nvarchar(50)  NOT NULL ,
     [Province] nvarchar(50)  NOT NULL ,
     CONSTRAINT [PK_Address] PRIMARY KEY CLUSTERED (
-        [MaDiaChi] ASC,[MaHocSinh] ASC
+        [AddressId] ASC,[StudentId] ASC
     ),
-    CONSTRAINT [FK_Address_Student] FOREIGN KEY([MaHocSinh]) REFERENCES [Student] ([MaHocSinh]) ON DELETE CASCADE ON UPDATE CASCADE
+    CONSTRAINT [FK_Address_Student] FOREIGN KEY([StudentId]) REFERENCES [Student] ([MaHocSinh]) ON DELETE CASCADE ON UPDATE CASCADE
 )

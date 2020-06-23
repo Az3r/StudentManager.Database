@@ -182,4 +182,18 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="[MaHocSinh]" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="51531ac8-d4c1-4b3b-958e-d9e7473ef2c2" ChangeDateTime="06/23/2020 09:27:27">
+    <Property Name="ElementName" Value="[dbo].[Address].[MaDiaChi]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Address]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[AddressId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8cadb7ac-e9e4-43ad-b428-36f20fdd6a25" ChangeDateTime="06/23/2020 09:28:25">
+    <Property Name="ElementName" Value="[dbo].[Address].[MaHocSinh]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Address]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[StudentId]" />
+  </Operation>
 </Operations>
