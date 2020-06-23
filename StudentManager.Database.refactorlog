@@ -301,4 +301,25 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="[RoomName]" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="24ff52c1-3a3e-45b3-8df5-948558066e78" ChangeDateTime="06/23/2020 09:41:41">
+    <Property Name="ElementName" Value="[dbo].[SchoolRole].[MaChucVu]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SchoolRole]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[RoleId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3f073d70-b462-4df8-be6c-ae1568996a4c" ChangeDateTime="06/23/2020 09:41:59">
+    <Property Name="ElementName" Value="[dbo].[SchoolRole].[CapDo]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SchoolRole]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[RoleLevel]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="add8a46d-41d1-4570-899a-968c4f4dae70" ChangeDateTime="06/23/2020 09:42:04">
+    <Property Name="ElementName" Value="[dbo].[SchoolRole].[Ten]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SchoolRole]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[RoleName]" />
+  </Operation>
 </Operations>

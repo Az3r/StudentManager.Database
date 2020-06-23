@@ -6,6 +6,6 @@
         [TeacherId] ASC
     ),
     CONSTRAINT [FK_Teacher_Subject] FOREIGN KEY ([ChuyenMon]) REFERENCES [Subject]([MaMonHoc]) ON DELETE CASCADE ON UPDATE CASCADE,
-    CONSTRAINT [FK_Teacher_SchoolRole] FOREIGN KEY ([MaChucVu]) REFERENCES [SchoolRole]([MaChucVu]) ON DELETE CASCADE ON UPDATE CASCADE, 
+    CONSTRAINT [FK_Teacher_SchoolRole] FOREIGN KEY ([MaChucVu]) REFERENCES [SchoolRole]([RoleId]) ON DELETE CASCADE ON UPDATE CASCADE, 
     CONSTRAINT [CK_Teacher_MaGiaoVien] CHECK (ISNUMERIC([TeacherId]) = 1),
 )
