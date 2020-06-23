@@ -8,6 +8,7 @@
     [Birthday] date  NOT NULL ,
     [Email] varchar(100)  NOT NULL ,
     [PhoneNumber] CHAR(10) NOT NULL, 
+    [Avatar] VARCHAR(MAX) NULL, 
     CONSTRAINT [FK_StudentDetail_Student] FOREIGN KEY ([StudentId]) REFERENCES [Student]([StudentId]) ON DELETE CASCADE ON UPDATE CASCADE, 
     CONSTRAINT [CK_StudentDetail_Email] CHECK (CHARINDEX('@gmail.com', Email) > 0),
 )
