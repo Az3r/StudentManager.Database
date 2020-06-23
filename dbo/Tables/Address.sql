@@ -7,5 +7,5 @@
     CONSTRAINT [PK_Address] PRIMARY KEY CLUSTERED (
         [AddressId] ASC,[StudentId] ASC
     ),
-    CONSTRAINT [FK_Address_Student] FOREIGN KEY([StudentId]) REFERENCES [Student] ([MaHocSinh]) ON DELETE CASCADE ON UPDATE CASCADE
+    CONSTRAINT [FK_Address_Student] FOREIGN KEY([StudentId]) REFERENCES [Student] ([StudentId]) ON DELETE CASCADE ON UPDATE CASCADE
 )

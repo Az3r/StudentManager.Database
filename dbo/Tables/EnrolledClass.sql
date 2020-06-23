@@ -4,5 +4,5 @@
     [ClassId] CHAR(4) NOT NULL PRIMARY KEY,
 
     CONSTRAINT [FK_EnrolledClass_Class] FOREIGN KEY ([ClassId]) REFERENCES [Class]([ClassId]) ON DELETE CASCADE ON UPDATE CASCADE,
-    CONSTRAINT [FK_EnrolledClass_Student] FOREIGN KEY ([StudentId]) REFERENCES [Student]([MaHocSinh]) ON DELETE CASCADE ON UPDATE CASCADE,
+    CONSTRAINT [FK_EnrolledClass_Student] FOREIGN KEY ([StudentId]) REFERENCES [Student]([StudentId]) ON DELETE CASCADE ON UPDATE CASCADE,
 )

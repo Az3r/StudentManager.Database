@@ -322,4 +322,67 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="[RoleName]" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="faa04c3e-d22a-4910-8c76-fac9c6b32fe4" ChangeDateTime="06/23/2020 09:43:28">
+    <Property Name="ElementName" Value="[dbo].[Score].[MaDiem]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Score]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[ScoreId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1055cb6e-a24d-4320-ae02-8141885a5c8d" ChangeDateTime="06/23/2020 09:43:37">
+    <Property Name="ElementName" Value="[dbo].[Score].[MaMonHoc]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Score]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[SubjectId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d09968b6-836b-4791-85d9-61ba6c1e2763" ChangeDateTime="06/23/2020 09:43:42">
+    <Property Name="ElementName" Value="[dbo].[Score].[MaHocSinh]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Score]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[StudentId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="85701f8a-2206-4e13-9d53-7a392227fa14" ChangeDateTime="06/23/2020 09:43:50">
+    <Property Name="ElementName" Value="[dbo].[Score].[HocKi]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Score]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[Semester]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e8c7cff9-20f6-4376-9c9d-1112d9a3d245" ChangeDateTime="06/23/2020 09:43:55">
+    <Property Name="ElementName" Value="[dbo].[Score].[NienKhoa]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Score]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[AcademicYear]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e8029238-1401-4608-89cc-f1c72dbcff41" ChangeDateTime="06/23/2020 09:44:01">
+    <Property Name="ElementName" Value="[dbo].[Score].[LoaiDiem]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Score]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[ScoreType]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="19aeeab5-47a4-4a95-87f0-60690f825f05" ChangeDateTime="06/23/2020 09:44:10">
+    <Property Name="ElementName" Value="[dbo].[Score].[Diem]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Score]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[ScoreValue]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="aa9d2415-30c5-4842-8c6c-1cde0ac19dbc" ChangeDateTime="06/23/2020 09:44:21">
+    <Property Name="ElementName" Value="[dbo].[Subject].[MaMonHoc]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Subject]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[SubjectId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1e86fc27-60d8-4243-aea9-dad3194ded5c" ChangeDateTime="06/23/2020 09:44:30">
+    <Property Name="ElementName" Value="[dbo].[Student].[MaHocSinh]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Student]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[StudentId]" />
+  </Operation>
 </Operations>
