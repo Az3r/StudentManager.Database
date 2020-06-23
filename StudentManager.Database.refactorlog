@@ -490,4 +490,67 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="[SubjectName]" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="bf6c6387-3a09-44bd-ad42-990e7249e446" ChangeDateTime="06/23/2020 09:56:21">
+    <Property Name="ElementName" Value="[dbo].[SubjectSchedule]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[Schedule]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2de70fe2-5f5a-472d-ba4c-eaf8bdc939bd" ChangeDateTime="06/23/2020 09:56:31">
+    <Property Name="ElementName" Value="[dbo].[Schedule].[MaThoiKhoaBieu]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Schedule]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[ScheduleId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="384e8726-1b42-44af-b88b-dc38c504f969" ChangeDateTime="06/23/2020 09:56:37">
+    <Property Name="ElementName" Value="[dbo].[Schedule].[MaTietHoc]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Schedule]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[SessionId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5996eb1f-6978-40e7-9bc1-087010a917bb" ChangeDateTime="06/23/2020 09:56:44">
+    <Property Name="ElementName" Value="[dbo].[Schedule].[MaMonHoc]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Schedule]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[SubjectId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="019b54cf-5e39-4605-a426-b0951b6b4177" ChangeDateTime="06/23/2020 09:56:49">
+    <Property Name="ElementName" Value="[dbo].[Schedule].[MaLop]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Schedule]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[ClassId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1c195373-2f28-48b9-8974-071fbe622382" ChangeDateTime="06/23/2020 09:56:54">
+    <Property Name="ElementName" Value="[dbo].[Schedule].[MaPhongHoc]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Schedule]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[RoomId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="49be1933-48ac-4d8b-9a12-595517aae004" ChangeDateTime="06/23/2020 09:57:05">
+    <Property Name="ElementName" Value="[dbo].[Schedule].[HocKi]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Schedule]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[Semester]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e992c47d-431d-48c4-abac-d12922352ff0" ChangeDateTime="06/23/2020 09:57:11">
+    <Property Name="ElementName" Value="[dbo].[Schedule].[NienKhoa]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Schedule]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[AcademicYear]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c8733c72-c2e5-48ee-aeb6-75f2c9570317" ChangeDateTime="06/23/2020 09:57:28">
+    <Property Name="ElementName" Value="[dbo].[Schedule].[NgayTrongTuan]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Schedule]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[DayOfWeek]" />
+  </Operation>
 </Operations>
