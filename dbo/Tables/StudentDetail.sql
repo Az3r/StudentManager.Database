@@ -8,6 +8,7 @@
     [GioiTinh] bit  NOT NULL ,
     [NgaySinh] date  NOT NULL ,
     [Email] varchar(100)  NOT NULL ,
+    [SoDienThoai] CHAR(10) NOT NULL, 
     CONSTRAINT [FK_StudentDetail_Student] FOREIGN KEY ([MaHocSinh]) REFERENCES [Student]([MaHocSinh]) ON DELETE CASCADE ON UPDATE CASCADE, 
     CONSTRAINT [CK_StudentDetail_Email] CHECK (CHARINDEX('@gmail.com', Email) > 0),
     CONSTRAINT [CK_StudentDetail_Tuoi] CHECK (Tuoi > 0)
