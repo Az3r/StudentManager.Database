@@ -1,6 +1,5 @@
 ﻿CREATE TABLE [dbo].[ClassRoom]
 (
-    [MaLop] CHAR(4) NOT NULL PRIMARY KEY,
-    [MPH] CHAR(10) NOT NULL,
-
+    [ClassId] CHAR(4) NOT NULL PRIMARY KEY,
+    [RoomId] CHAR(10) NOT NULL,
 )
