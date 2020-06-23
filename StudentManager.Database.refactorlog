@@ -385,4 +385,32 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="[StudentId]" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="78e3f07a-5e82-45f8-b5cc-eaab701fef8b" ChangeDateTime="06/23/2020 09:45:01">
+    <Property Name="ElementName" Value="[dbo].[Session].[MaTietHoc]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Session]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[SessionId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b0c24681-2182-42a7-935c-b0338631f122" ChangeDateTime="06/23/2020 09:45:07">
+    <Property Name="ElementName" Value="[dbo].[Session].[BatDau]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Session]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[StartTime]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5dcbea11-4a3d-4a28-8116-ca006c155b3b" ChangeDateTime="06/23/2020 09:45:12">
+    <Property Name="ElementName" Value="[dbo].[Session].[KetThuc]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Session]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[EndTime]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0c501a96-5024-44f8-82a2-900ff2529ae8" ChangeDateTime="06/23/2020 09:45:19">
+    <Property Name="ElementName" Value="[dbo].[Session].[StartTime]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Session]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[BeginTime]" />
+  </Operation>
 </Operations>

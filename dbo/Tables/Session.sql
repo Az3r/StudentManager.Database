@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[Session]
 (
-    [MaTietHoc] INT NOT NULL PRIMARY KEY,
-    [BatDau] TIME NOT NULL,
-    [KetThuc] TIME NOT NULL
+    [SessionId] INT NOT NULL PRIMARY KEY,
+    [BeginTime] TIME NOT NULL,
+    [EndTime] TIME NOT NULL
 )
