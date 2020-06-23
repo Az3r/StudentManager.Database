@@ -4,7 +4,6 @@
     [Ho] nvarchar(10)  NOT NULL ,
     [Ten] nvarchar(10)  NOT NULL ,
     [TenDem] nvarchar(10)  NOT NULL ,
-    [Tuoi] int  NOT NULL ,
     [GioiTinh] bit  NOT NULL ,
     [NgaySinh] date  NOT NULL ,
     [Email] varchar(100)  NOT NULL ,
