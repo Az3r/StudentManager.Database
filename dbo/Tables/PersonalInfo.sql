@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [PersonalInfo] (
-    [PersonalInfoId] VARCHAR(9) NOT NULL ,
+    [PersonalInfoId] VARCHAR(9) NOT NULL PRIMARY KEY,
 
     [Address] nvarchar(300) NOT NULL,
 
